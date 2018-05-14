@@ -539,6 +539,9 @@ const Header = () =>
             ]}
           />
         </Slide>
+          <Slide transition={['fade']}>
+              <Image src={require('../images/profit.jpg')} />
+          </Slide>
       </Deck>
     )
   }
