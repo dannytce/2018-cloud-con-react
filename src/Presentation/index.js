@@ -140,7 +140,9 @@ export default class Presentation extends React.Component {
                     'React narozdil od jinych knihoven nevyuziva templates, ale specialni syntax JSX',
                 },
                 { text: 'JSX pripomina vzhledem klasicke HTML' },
-                { text: 'Vskutku se ale jedna pouze o sugar syntax pro funkci' },
+                {
+                  text: 'Vskutku se ale jedna pouze o sugar syntax pro funkci',
+                },
               ]}
             />
           </Notes>
@@ -539,9 +541,33 @@ const Header = () =>
             ]}
           />
         </Slide>
-          <Slide transition={['fade']}>
-              <Image src={require('../images/profit.jpg')} />
-          </Slide>
+        <Slide transition={['fade']}>
+          <Image src={require('../images/profit.jpg')} />
+        </Slide>
+
+        <Slide transition={['zoom']} bgColor="primary">
+          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+            Daniel Kijkov
+          </Heading>
+          <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
+            Github: <a href="http://github.com/dannytce/">dannytce</a>
+          </Text>
+          <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
+            Twitter: <a href="https://twitter.com/dannytce">dannytce</a>
+          </Text>
+          <Text margin="10px 0 0" textColor="tertiary" size={1} bold>
+            Prezentace here:{' '}
+            <a href="https://github.com/dannytce/2018-cloud-con-react/">
+              2018-cloud-con-react
+            </a>
+          </Text>
+        </Slide>
+
+        <Slide transition={['zoom']} bgColor="primary">
+          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+            Dekuji za pozornost
+          </Heading>
+        </Slide>
       </Deck>
     )
   }
