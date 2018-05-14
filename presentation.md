@@ -102,3 +102,6 @@
   * Tvurce Reasonu je taky tvurcem Reactu
   * Reason se kompiluje do JavaScriptu diky BucleScriptu
   * ReasonReact
+- Děkuji za pozornost
+
+  * ![alt text](https://i2.imgflip.com/2a86ci.jpg "Profit")
