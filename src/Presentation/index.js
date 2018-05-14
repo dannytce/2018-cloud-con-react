@@ -50,7 +50,7 @@ const coToJeReact = [
   { text: 'V pomyslnem MVC predstavuje V neboli View vrstvu' },
   { text: 'JSX' },
   { text: 'Je deklarativni' },
-  { text: 'Componened-based' },
+  { text: 'Component-based' },
   { text: 'Virtual DOM' },
 ]
 
@@ -128,7 +128,7 @@ export default class Presentation extends React.Component {
                   'React narozdil od jinych knihoven nevyuziva templates, ale specialni syntax JSX',
               },
               { text: 'JSX pripomina vzhledem klasicke HTML' },
-              { text: 'Vskutku se ale jedna pouze sugar syntax pro funkci' },
+              { text: 'Vskutku se ale jedna pouze o sugar syntax pro funkci' },
             ]}
           />
           <Notes>
@@ -140,7 +140,7 @@ export default class Presentation extends React.Component {
                     'React narozdil od jinych knihoven nevyuziva templates, ale specialni syntax JSX',
                 },
                 { text: 'JSX pripomina vzhledem klasicke HTML' },
-                { text: 'Vskutku se ale jedna pouze sugar syntax pro funkci' },
+                { text: 'Vskutku se ale jedna pouze o sugar syntax pro funkci' },
               ]}
             />
           </Notes>
@@ -249,7 +249,7 @@ export default class Presentation extends React.Component {
           <List
             data={[
               {
-                text: 'jednotlive casti UI jsou rezeprentovany jako komponenty',
+                text: 'Jednotlive casti UI jsou reprezentovany jako komponenty',
               },
               { text: 'Kazda komponenta muze mit svuj stav' },
               {
